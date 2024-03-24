@@ -1,6 +1,6 @@
 # Metasploit Payload Creator
 
-![Metasploit Logo](https://github.com/sathinilokesh/meta_spy/blob/main/logo.jpg)
+![Metasploit Logo](https://github.com/sathinilokesh/meta_spy/blob/main/logo.png)
 
 Welcome to the Metasploit Payload Creator! This Python script offers a seamless experience for generating payloads and interacting with Metasploit Framework, a powerful penetration testing tool. Whether you're a cybersecurity professional, ethical hacker, or enthusiast, this utility simplifies the process of payload creation and exploitation.
 
@@ -47,7 +47,7 @@ This tool is intended for educational and testing purposes only. Misuse of this 
 
 - **Developed By**: [Lokesh Sathini](https://github.com/sathinilokesh)
 - **Inspired By**: Open-source community and contributors to Metasploit Framework.
-- **Logo**: [Metasploit Logo](https://github.com/sathinilokesh/meta_spy/blob/main/logo.jpg)
+- **Logo**: [Metasploit Logo](https://github.com/sathinilokesh/meta_spy/blob/main/logo.png)
 
 ## License
 
