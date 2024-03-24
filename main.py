@@ -4,6 +4,19 @@ from colorama import init, Fore
 # Initialize colorama
 init(autoreset=True)
 
+def install_dependencies():
+    print(Fore.YELLOW + "Checking for required dependencies...")
+    try:
+        subprocess.run(['msfvenom', '--version'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(['msfconsole', '--version'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        print(Fore.GREEN + "Dependencies already installed.")
+    except FileNotFoundError:
+        print(Fore.RED + "Required dependencies not found.")
+        print(Fore.YELLOW + "Please make sure Metasploit Framework is installed and in your PATH.")
+        print(Fore.YELLOW + "Refer to the Metasploit website for installation instructions.")
+        return False
+    return True
+
 def create_payload():
     print(Fore.YELLOW + "Choose payload type:")
     print(Fore.CYAN + "1. Windows Meterpreter Reverse TCP")
@@ -43,6 +56,8 @@ def launch_msfconsole():
         print(Fore.RED + "msfconsole not found. Make sure Metasploit Framework is installed and in your PATH.")
 
 if __name__ == "__main__":
+    if not install_dependencies():
+        exit()
     while True:
         print("\n" + Fore.MAGENTA + "Metasploit Payload Creator")
         print(Fore.CYAN + "1. Create Payload")
