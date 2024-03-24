@@ -1,8 +1,8 @@
-# Metasploit Payload Creator
+# Metasploit Payload Creator (For Linux)
 
 ![Metasploit Logo](https://github.com/sathinilokesh/meta_spy/blob/main/logo.png)
 
-Welcome to the Metasploit Payload Creator! This Python script offers a seamless experience for generating payloads and interacting with Metasploit Framework, a powerful penetration testing tool. Whether you're a cybersecurity professional, ethical hacker, or enthusiast, this utility simplifies the process of payload creation and exploitation.
+Welcome to the Metasploit Payload Creator! This Python script offers a seamless experience for generating payloads and interacting with Metasploit Framework, tailored specifically for Linux environments. Whether you're a cybersecurity professional, ethical hacker, or enthusiast, this utility simplifies the process of payload creation and exploitation on Linux systems.
 
 ## Features
 
